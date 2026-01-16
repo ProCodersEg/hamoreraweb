@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.hamor_era_fishing_war_game",
+      "sha256_cert_fingerprints": [
+        "5C:6C:38:07:91:63:61:D0:AE:9B:EB:A2:AA:CA:AD:C2:4C:D3:9A:51:C6:FC:27:A1:35:0D:43:41:B3:70:E7:3B"
+      ]
+    }
+  }
+]
