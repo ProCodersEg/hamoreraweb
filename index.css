@@ -380,7 +380,14 @@
   .home-container2 {
     width: 100%;
   }
+  .home-thq-text-elm1 {
+    font-size: 70px;
+  }
+  .home-thq-text-elm2 {
+    font-size: 70px;
+  }
   .home-thq-text-elm3 {
+    width: auto;
     display: grid;
     align-self: center;
     line-height: 1;
