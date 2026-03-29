@@ -117,8 +117,9 @@
   flex-direction: column;
   background-size: cover;
   justify-content: flex-end;
-  -object-position: center;
   background-image: url("public/main_design-1500w.webp");
+  background-position: center center;
+  background-attachment: fixed;
 }
  
 .home-container2 {
@@ -369,6 +370,11 @@
 }
  
 @media(max-width: 479px) {
+  .home-container1 {
+    left: 0px;
+    bottom: -1000px;
+    position: sticky;
+  }
   .home-container2 {
     width: auto;
     margin-top: 100px;
@@ -385,10 +391,10 @@
   .home-thq-text-elm3 {
     fill: #8C3C1B;
     color: rgb(101, 42, 18);
-    width: 500px;
+    width: auto;
     display: grid;
     font-size: 25px;
-    align-self: flex-end;
+    align-self: center;
     margin-top: var(--dl-layout-space-twounits);
     text-align: center;
     font-family: VEXA;
@@ -396,6 +402,7 @@
     margin-left: var(--dl-layout-space-twounits);
     margin-right: var(--dl-layout-space-twounits);
     padding-left: var(--dl-layout-space-oneandhalfunits);
+    justify-items: center;
     padding-right: var(--dl-layout-space-oneandhalfunits);
   }
   .home-container3 {
